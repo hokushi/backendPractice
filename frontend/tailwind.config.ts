@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        red: "#ff0000",
+        red: "#ED6460",
       },
     },
   },

@@ -8,7 +8,11 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        red: "#ff0000",
+      },
+    },
   },
   plugins: [],
 };

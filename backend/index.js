@@ -1,8 +1,10 @@
 // backend/index.js
 const express = require("express");
+const cors = require("cors");
 const app = express();
 const PORT = 3001; // 好きなポート番号に変更可
 
+app.use(cors()); // CORSミドルウェアを追加
 // JSONボディを扱いたい場合
 app.use(express.json());
 
